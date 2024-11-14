@@ -1,6 +1,16 @@
 main {
     max-width: 840px;
 }
+nav {
+    text-align: center;
+
+}
+nav a {
+    color: black;
+}
+h1 {
+    margin: auto;
+}
 aside{
     width: 20rem;
     margin: 1rem;
