@@ -1,3 +1,9 @@
+:root{
+    --img-width: 200px;
+    --img-height: auto;
+    --border: 1px solid rgb(73, 60, 43);
+    --text-align: center;
+}
 main {
     max-width: 840px;
 }
@@ -14,27 +20,27 @@ h1 {
 aside{
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(73, 60, 43);
+    border: var(--border);
     padding: 5px;
     background-color:  #daae75;
     color: rgb(73, 60, 43);
-    text-align: center;
+    text-align: var(--text-align);
 
 }
 aside img {
-    width: 200px;
-    height: auto;
+    width: var(--img-width);
+    height: var(--img-heigh)t;
 
 }
 main img {
-    width: 200px;
-    height: auto;
+    width: var(--img-width);
+    height: var(--img-height);
 }
 p {padding: 0;}
 
 footer {
     margin-top: 20px;
-    border-top: 1px dotted black;
-    text-align: center;
+    border-top: var(--border);
+    text-align: var(--text-align);
 
 }
