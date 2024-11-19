@@ -17,10 +17,12 @@ body{
 }
 main {
     max-width: 840px;
+    color: var(--color);
+    display: block;
 }
 nav {
     background-color: var(--background-color);
-    text-align: center;
+    text-align: left;
     padding: var(--padding);
 }
 nav a {
@@ -43,10 +45,13 @@ aside img {
     height: var(--img-heigh)t;
 
 }
+ul{
+    clear: both;
+}
 main img {
     float: right;
+    margin: 0 0 1rem 1rem;
     border: 6px solid  #daae75;
-    margin: 0 10px 1rem 20px;
     width: var(--img-width);
     height: var(--img-height);
 }
