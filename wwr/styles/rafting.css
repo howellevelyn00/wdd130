@@ -28,7 +28,7 @@ p{
     background-color: var(--background-color);
     color: var(--color);
     padding: var(--padding);
-    font-family: 'Mona Sans', snas-serif;
+    font-family: 'Mona Sans', sans-serif;
 }
 
 /*Class Selectors*/
