@@ -22,6 +22,8 @@ p{
     padding: var(--padding);
 }
 
+/*Class Selectors*/
+
 .hero img {
     display: block;
     width: 100%;

@@ -63,6 +63,9 @@ footer {
     text-align: var(--text-align);
 
 }
+aside h2{
+    position: absolute;
+}
 
 /* Class Selectors*/
 
