@@ -1,0 +1,40 @@
+:root{
+    --color: #DAF1FC;
+    --background-color: #FFEA82;
+    --color: #0290A6;
+    --color: #F9A035;
+    --padding: 5px;
+    --margin: 10px;
+}
+heading a{
+    text-decoration: none;
+}
+h1{
+    padding: var(--padding);
+
+}
+h2{
+    padding: var(--padding);
+}
+p{
+    background-color: var(--background-color);
+    color: var(--color);
+    padding: var(--padding);
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto
+}
+.hero h1{
+    position: absolute;
+}
+.hero article{
+    position: absolute;    
+}
+.hero article img{
+    float: right;
+    width: 100;
+    height: auto;
+}
