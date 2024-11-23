@@ -6,6 +6,14 @@
     --padding: 5px;
     --margin: 10px;
 }
+body {
+    font-family: 'Funnel Sans', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Merriweather', serif;
+}
+
 heading a{
     text-decoration: none;
 }
@@ -20,6 +28,7 @@ p{
     background-color: var(--background-color);
     color: var(--color);
     padding: var(--padding);
+    font-family: 'Mona Sans', snas-serif;
 }
 
 /*Class Selectors*/
