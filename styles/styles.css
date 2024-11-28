@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-header, .grid, footer{
+header, footer, .grid{
     max-width: 840px;
     margin: 0 auto;
 }
@@ -24,7 +24,7 @@ main {
     display: block;
     padding: 20px;
     margin: 1rem;
-    grid-column: 2;
+    grid-column: 2/3;
 }
 main img {
     float: right;
@@ -61,10 +61,8 @@ aside{
     width: 100%;
     text-align: var(--text-align);
     position: relative;
-    order: 1;
-    grid-column: 1;
-    
-
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 aside h2{
     position: absolute;
@@ -101,8 +99,5 @@ footer {
 }
 .grid{
     display: grid;
-    grid-template-columns: 1fr 2fr;
     align-items: center;
-    margin: 0 auto;
-    align-items: start;
 }
