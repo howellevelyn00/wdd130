@@ -29,7 +29,7 @@ main{
 }
 
 h2 {
-    color: var(--primary-color);
+    color: var(--background-color);
     font-family: 'Merriweather', serif;
     padding: var(--padding);
 }
@@ -42,6 +42,7 @@ header {
     align-items: center;
     grid-template-columns: 120px 1fr 2fr;
     max-width: 1000px;
+    width: 100%
 }
 header img{
     width: 100%;
@@ -143,7 +144,7 @@ form{
     right: 5px;
     width: 100%;
     background-color:  rgba(2,144, 166, 0.5);
-    color: var(--text-color);
+    color: var(--background-color);
     padding: var(--padding);
     border-radius: 10px; 
 }
@@ -155,6 +156,7 @@ form{
 /*history section*/
 
 .histroy-grid-container{
+    margin: 30px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: var(--secondary-color);
@@ -162,11 +164,9 @@ form{
 .history-title{
     grid-column: 1/4;
 }
-.image-grid-history{
-    margin: 20px;
-}
 /*Images selection*/
 .container{
+    margin: 30px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
 }
@@ -174,19 +174,15 @@ form{
 {
     grid-column: 1/7;
 }
-.image-grid{
-
-    margin: 20px;
-}
 figure{
     text-align: center;
 }
 .contact{
+    margin: 30px;
     text-align: center;
+    background-color: var(--secondary-color);
 }
-.contact p{
-    color: var(--text-color);
-}
+
 .map{
     float: right;
     margin-right: 200px;
