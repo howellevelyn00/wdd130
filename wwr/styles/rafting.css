@@ -1,7 +1,7 @@
 :root{
-    --primary-color: #DAF1FC;
-    --background-color: #FFEA82;
-    --secondary-color: #0290A6;
+    --primary-color: #0290A6;
+    --background-color: rgba(2,144, 166, 0.5);
+    --secondary-color: #FFEA82;
     --text-color: #F9A035;
     --padding: 5px;
     --margin: 10px;
@@ -11,11 +11,11 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: var(--primary-color);
+    background-color: var(--background-color);
 }
 
 main h1{
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-family: 'Merriweather', serif;
     padding: var(--padding);
     position: absolute;
@@ -29,13 +29,13 @@ main{
 }
 
 h2 {
-    color: var(--background-color);
+    color: var(--secondary-color);
     font-family: 'Merriweather', serif;
     padding: var(--padding);
 }
 
 header {
-    background: #0290A6;
+    background: var( --primary-color);
     color: var(--text-color);
     padding: 1em;
     display: grid;
@@ -65,14 +65,14 @@ nav a{
     font-size: larger;
 }
 nav a:hover{
-    color: #0290A6;
+    color: var(--background-color);
     font-weight: 700;
     text-decoration: underline;
 
 }
 
 p{
-    color: var(--primary-color);
+    color: var(--background-color);
     padding: var(--padding);
     font-family: 'Mona Sans', sans-serif;
 }
@@ -81,7 +81,7 @@ section{
     padding: 2em;
     margin-bottom: 2em;
     text-align: center;
-    background-color: #0290A6;
+    background-color: var( --primary-color);
 }
 section p{
     color: var(--text-color);
@@ -91,7 +91,7 @@ section img{
     height: 200px;
 }
 footer{
-    background: #0290A6;
+    background: var( --primary-color);
     color: var(--text-color);
     text-align: right;
     padding: 10px;
@@ -107,11 +107,11 @@ footer a{
     width: auto;
 }
 div figcaption{
-    color: var(--primary-color);
+    color: var(--background-color);
 }
 form{
     margin: 30px;
-    background:  var(--secondary-color);
+    background:  var( --primary-color);
     color: var(--text-color);
     text-align: center;
     padding: 10px;
@@ -123,7 +123,7 @@ form{
 .hero{
     position: relative;
     text-align: center;
-    color: var(--text-color);
+    color: var(--secondary-color);
 }
 
 .hero img {
@@ -137,7 +137,7 @@ form{
     width: 100%;
     text-align: center;
     padding: 5px;
-    color:  #DAF1FC;
+    color:  var(--secondary-color);
 }
 .hero article{
     position: absolute;   
@@ -145,7 +145,7 @@ form{
     right: 5px;
     width: 100%;
     background-color:  rgba(2,144, 166, 0.5);
-    color: var(--background-color);
+    color: var(--secondary-color);
     padding: var(--padding);
     border-radius: 10px; 
 }
@@ -160,7 +160,7 @@ form{
     margin: 30px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
 }
 .history-title{
     grid-column: 1/4;
@@ -183,7 +183,7 @@ figure{
 .contact{
     margin: 30px;
     text-align: center;
-    background-color: var(--secondary-color);
+    background-color: var( --primary-color);
 }
 
 .map{
