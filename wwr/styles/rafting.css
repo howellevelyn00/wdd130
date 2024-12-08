@@ -76,7 +76,9 @@ p{
     padding: var(--padding);
     font-family: 'Mona Sans', sans-serif;
 }
-
+article p{
+    color: var(--text-color)
+}
 section{
     padding: 2em;
     margin-bottom: 2em;
@@ -145,7 +147,7 @@ form{
     right: 5px;
     width: 100%;
     background-color:  rgba(2,144, 166, 0.5);
-    color: var(--secondary-color);
+    color: var(--text-color);
     padding: var(--padding);
     border-radius: 10px; 
 }
