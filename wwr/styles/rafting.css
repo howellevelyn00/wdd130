@@ -110,6 +110,7 @@ div figcaption{
     color: var(--primary-color);
 }
 form{
+    margin: 30px;
     background:  var(--secondary-color);
     color: var(--text-color);
     text-align: center;
@@ -163,12 +164,14 @@ form{
 }
 .history-title{
     grid-column: 1/4;
+    text-align: center;
 }
 /*Images selection*/
 .container{
     margin: 30px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    align-items: center;
 }
 .adventure-title
 {
